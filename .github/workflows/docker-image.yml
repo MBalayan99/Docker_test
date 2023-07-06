@@ -16,6 +16,7 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
   push_to_registries:
+    needs: [build]
     name: Push Docker image to multiple registries
     runs-on: ubuntu-latest
     permissions:
