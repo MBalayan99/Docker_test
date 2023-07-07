@@ -27,4 +27,5 @@ jobs:
           repository: mher1999/test
           tag_with_ref: true
           add_git_labels: true
-          tags: latest, ${{ github.run_number }}
+          push: true
+          tags: mher1999/my_app:latest
