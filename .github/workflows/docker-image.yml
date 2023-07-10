@@ -37,4 +37,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: mher1999/my_app:latest
+          tags: mher1999/my_app:v2
