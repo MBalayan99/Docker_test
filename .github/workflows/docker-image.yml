@@ -25,5 +25,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: mher1999/my_app
           tag_with_ref: true
-          add_git_labels: true
           tags: latest, ${{ github.run_number }}
